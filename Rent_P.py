@@ -43,4 +43,3 @@ data_encoded['Predicted Price'] = rf_model.predict(X)
 
 # Save the updated dataset to a new CSV file
 data_encoded.to_csv("updated_dataset.csv", index=False)
-print("Hello hari")
