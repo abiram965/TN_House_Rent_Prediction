@@ -38,8 +38,8 @@ print("Mean Squared Error:", mse)
 print("R-squared:", r2)
 print("Accuracy:", rf_model.score(X_test, y_test))
 
-# Create a new column for predicted prices in the dataset
+
 data_encoded['Predicted Price'] = rf_model.predict(X)
 
-# Save the updated dataset to a new CSV file
 data_encoded.to_csv("updated_dataset.csv", index=False)
+print("Tata")
